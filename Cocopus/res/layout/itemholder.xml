@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="152dp"
+        android:layout_height="68dp"
+        android:layout_weight="0.16"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/holderTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STM Montreal"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/holderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11/11/2011"
+            
+             />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/holderAmount"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center"
+        android:text="10"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.04" />
+
+</LinearLayout>
